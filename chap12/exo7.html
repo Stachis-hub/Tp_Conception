@@ -1,0 +1,34 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Couleurs du site avec des sessions</title>
+<style type="text/css" >
+<!--
+body{background-color: blue ; color: white ;}
+legend{font-weight:bold;font-family:cursive;}
+label{font-weight:bold;font-style:italic;}
+-->
+</style>
+</head>
+<body>
+<div>
+<form method="post" action="exo7.php">
+<fieldset>
+<legend>Choix vos couleurs</legend>
+<label>Couleur de fond
+<input type="text" name="fond" />
+</label><br /><br />
+<label>Couleur de texte
+<input type="text" name="texte" />
+</label><br />
+<div><input type="submit" value="Envoyer" />
+<input type="reset" value="Effacer" /></div>
+</fieldset>
+</form>
+<p>Contenu de la
+<a href="exo7.php">Deuxième page</a>
+</p>
+</div>
+</body>
+</html>
