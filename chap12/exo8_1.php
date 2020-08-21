@@ -62,8 +62,7 @@ $_POST["envoi"]="";
 <a href="exo8.php"><strong>Page des livres</strong></a><br />//1
 <a href="exo8_2.php"><strong>Page des plats</strong></a><br />//2
 </div>
-<form action="<?= $_SERVER['PHP_SELF'] ?>" method="post"
-enctype="application/x-www-form-urlencoded">
+<form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
 <fieldset>
 <legend><b>Commande des musiques</b></legend>
 <table>
