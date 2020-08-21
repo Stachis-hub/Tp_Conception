@@ -50,8 +50,7 @@ echo "<h3>La session est terminée</h3>";
 }
 $_POST["envoi"]="";
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8" />
@@ -62,8 +61,7 @@ $_POST["envoi"]="";
 <a href="exo8.php"><strong>Page des livres</strong></a><br />//1
 <a href="exo8_1.php"><strong>Page des musiques</strong></a><br />//2
 </div>
-<form action="<?= $_SERVER['PHP_SELF'] ?>" method="post"
-enctype="application/x-www-form-urlencoded">
+<form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
 <fieldset>
 <legend><b>Commande des plats</b></legend>
 <table>
